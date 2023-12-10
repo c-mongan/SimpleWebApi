@@ -1,9 +1,23 @@
+using SimpleWebApi.Models;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(
+        policyBuilder =>
+        {
+            policyBuilder.WithOrigins("http://localhost:5093") // Replace with your front-end URL
+                         .AllowAnyHeader()
+                         .AllowAnyMethod();
+        });
+});
 
 var app = builder.Build();
 
@@ -14,7 +28,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseCors(); // Apply CORS policy
+
+//app.UseHttpsRedirection();
 
 var summaries = new[]
 {
@@ -23,7 +39,7 @@ var summaries = new[]
 
 app.MapGet("/weatherforecast", () =>
 {
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
+    var forecast = Enumerable.Range(1, 5).Select(index =>
         new WeatherForecast
         (
             DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
@@ -36,9 +52,24 @@ app.MapGet("/weatherforecast", () =>
 .WithName("GetWeatherForecast")
 .WithOpenApi();
 
+// ToDo API
+var todoItems = new List<TodoItem>();
+
+app.MapGet("/todo", () => todoItems)
+   .WithName("GetTodoItems");
+
+app.MapPost("/todo", (TodoItem todoItem) => 
+{
+    todoItems.Add(todoItem);
+    return Results.Created($"/todo/{todoItem.Id}", todoItem);
+})
+.WithName("AddTodoItem");
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
+
+

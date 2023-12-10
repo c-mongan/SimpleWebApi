@@ -1,11 +1,3 @@
-C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.csproj.AssemblyReference.cache
-C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.AssemblyInfoInputs.cache
-C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.AssemblyInfo.cs
-C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.csproj.CoreCompileInputs.cache
-C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.sourcelink.json
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\bin\Debug\net8.0\appsettings.json
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\bin\Debug\net8.0\SimpleWebApi.exe
@@ -18,6 +10,14 @@ C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\bin\Debug\net8.0\Microsoft.Op
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.csproj.AssemblyReference.cache
+C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.AssemblyInfoInputs.cache
+C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.AssemblyInfo.cs
+C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.csproj.CoreCompileInputs.cache
+C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\SimpleWebApi.sourcelink.json
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\DellAdmin\Documents\Projetcs\SimpleWebApi\obj\Debug\net8.0\staticwebassets\msbuild.SimpleWebApi.Microsoft.AspNetCore.StaticWebAssets.props
